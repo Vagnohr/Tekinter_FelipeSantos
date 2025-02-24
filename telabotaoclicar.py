@@ -21,7 +21,7 @@ lb.place(x=100,y=100)
 bt=Button(i,width="20",text='OK',command=bt_click)
 bt.place(x=230,y=100)
 #o condigo abaixo cria um botão que posiciona abaixo do botão OK
-bt=Button(i,width="20",text='Capturar',command=bt_click)
+bt=Button(i,width="20",text='Capturar',command=bt_clickar)
 bt.place(x=230,y=190)
 #cria a caixa de texo para digitar algo dentro
 ed=Entry(i)
