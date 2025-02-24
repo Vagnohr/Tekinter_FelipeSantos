@@ -20,3 +20,5 @@ lb=Label(i,text='Nome do Usuario')
 lb.place(x=100,y=100)
 bt=Button(i,width="20",text='OK',command=bt_click)
 bt.place(x=230,y=100)
+#o condigo abaixo cria um botão que posiciona abaixo do botão OK
+bt=Button(i,width="20")
