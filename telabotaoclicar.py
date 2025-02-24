@@ -13,8 +13,8 @@ def bt_clickar():
 i=Tk()
 #gerar titulo na janela
 i.title('Programa financeiro')
-i.geometry('980X720+250+30')
-i["bg"]='dark red'
+i.wm_geometry('980x720+250+30')
+i["bg"]='green'
 #i.wm._iconbitmap('icone.ico')
 lb=Label(i,text='Nome do Usuario')
 lb.place(x=100,y=100)
