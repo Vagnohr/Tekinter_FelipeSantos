@@ -1,20 +1,44 @@
 from tkinter import *
 def bt_click():
-    num1=int(ed1.get())
-    num2=int(ed2.get())
-    lb["text"]=num1+num2
+    if(str(ed1.get()).isnumeric()and str(ed2.get()).isnumeric()):
+        num1=int(ed1.get())
+        num2=int(ed2.get())
+        #Se valores não forem númericos imprime a mensagem abaixo:
+        lb["text"]=num1+num2
+        lb["bg"]="#00FA9A"
+    else:
+        lb["text"]="Valores são invalidos"
+        lb["bg"]="red"
 def bt_clicked():
-    num1=int(ed1.get())
-    num2=int(ed2.get())
-    lb["text"]=num1-num2
+    if(str(ed1.get()).isnumeric()and str(ed2.get()).isnumeric()):
+        num1=int(ed1.get())
+        num2=int(ed2.get())
+        #Se valores não forem númericos imprime a mensagem abaixo:
+        lb["text"]=num1-num2
+        lb["bg"]="#00FA9A"
+    else:
+        lb["text"]="Valores são invalidos"
+        lb["bg"]="red"
 def bt_clacked():
-    num1=int(ed1.get())
-    num2=int(ed2.get())
-    lb["text"]=num1*num2
+    if(str(ed1.get()).isnumeric()and str(ed2.get()).isnumeric()):
+        num1=int(ed1.get())
+        num2=int(ed2.get())
+        #Se valores não forem númericos imprime a mensagem abaixo:
+        lb["text"]=num1*num2
+        lb["bg"]="#00FA9A"
+    else:
+        lb["text"]="Valores são invalidos"
+        lb["bg"]="red"
 def bt_cracked():
-    num1=int(ed1.get())
-    num2=int(ed2.get())
-    lb["text"]=num1/num2
+    if(str(ed1.get()).isnumeric()and str(ed2.get()).isnumeric()):
+        num1=int(ed1.get())
+        num2=int(ed2.get())
+        #Se valores não forem númericos imprime a mensagem abaixo:
+        lb["text"]=num1/num2
+        lb["bg"]="#00FA9A"
+    else:
+        lb["text"]="Valores são invalidos"
+        lb["bg"]="red"
 i=Tk()
 i.title('Programa Financeiro')
 i.geometry('980x720+250+30')
