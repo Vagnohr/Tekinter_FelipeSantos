@@ -14,12 +14,16 @@ lb4.place(x=230,y=200)
 lb2.pack()
 lb3.pack()
 lb4.pack()"""
-#o codigo abaixo é responsavel por posicionar a label no topo da interface
+"""#o codigo abaixo é responsavel por posicionar a label no topo da interface
 lb1.pack(side="top")
 #o codigo abaixo é responsavel por posicionar a label na esquerda da interface
 lb2.pack(side="left")
 #o codigo abaixo é responsavel por posicionar a label na direita da interface
 lb3.pack(side="right")
-#o codigo abaixo é responsavel por posicionar a label no inferior da interface
-lb4.pack(side="bottom")
+#o codigo abaixo é responsavel por posicionar a label na parte inferior da interface
+lb4.pack(side="bottom")"""
+lb1.pack(side="left")
+lb2.pack(side="left")
+lb3.pack()
+lb4.pack()
 i.mainloop()
