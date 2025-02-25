@@ -15,5 +15,6 @@ lb1.pack(side=LEFT)
 lb2.pack(side="left")
 lb3.pack(anchor="w") #sempre que não utilizo a opção side, ele sempre será topo
 #lb4.pack(anchor="w") #sempre que não utilizo a opção side, ele sempre será topo
-lb4.pack(side=BOTTOM,anchor="w")
+#lb4.pack(side=BOTTOM,anchor="w")
+lb4.pack(anchor="e")
 i.mainloop()
